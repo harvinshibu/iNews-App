@@ -13,7 +13,7 @@ class NewsViewModel{
     let urlString: String
     
     init(){
-        urlString = "https://newsapi.org/v2/everything?q=apple&from=2022-12-07&to=2022-12-07&sortBy=popularity&apiKey=ca915e55877b45b4bbe80af16f32ff0d"
+        urlString = "https://newsapi.org/v2/everything?q=apple&from=2022-12-07&to=2022-12-07&sortBy=popularity&apiKey=[API KEY]"
     }
     
     func loadData(handler: @escaping ([Article]) -> Void){
